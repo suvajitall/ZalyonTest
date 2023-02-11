@@ -37,7 +37,7 @@ public class TrainigModule {
 		
 		LoginObjects loginUsername = new LoginObjects();
 		loginUsername.login_email(driver).sendKeys("zalyonadmin@gmail.com");
-		loginUsername.login_password(driver).sendKeys("code1234");
+		loginUsername.login_password(driver).sendKeys("code12345");
 		loginUsername.login_bttn(driver).click();
 		
 		WebDriverWait wait = new WebDriverWait(driver,  Duration.ofSeconds(50));
